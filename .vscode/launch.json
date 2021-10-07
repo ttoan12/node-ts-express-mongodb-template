@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Development",
+            "request": "launch",
+            "runtimeArgs": ["run", "dev"],
+            "runtimeExecutable": "npm",
+            "skipFiles": ["<node_internals>/**"],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Debug Production",
+            "request": "launch",
+            "runtimeArgs": ["run", "prod"],
+            "runtimeExecutable": "npm",
+            "skipFiles": ["<node_internals>/**"],
+            "type": "pwa-node"
+        }
+    ]
+}
